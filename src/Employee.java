@@ -39,6 +39,10 @@ public class Employee {
         this.salary = salary;
     }
 
+    public void setSalary(double salary , double bonus) {
+        this.salary = salary+(salary*bonus);
+    }
+
     public static int getCount(){
         return count;
     }
