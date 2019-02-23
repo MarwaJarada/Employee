@@ -18,6 +18,8 @@ public class main {
 
         }
 
+        showSortedData(employees);
+
         /* If we want to test sorting methods:
         sortBySalaryTEST(employees);
         sortByNameTEST(employees);
@@ -69,5 +71,18 @@ public class main {
             Employee[] employeesSortedByName = sortByName(employees);
             System.out.println(employeesSortedByName[x].getName());
         }
+    }
+
+
+    public static void showSortedData(Employee[] employees){
+        Employee[] employeesSortedBySalary=sortBySalary(employees);
+        System.out.printf("%10s %10s %10s \n","Name","Department" , "Salary");
+        for (int x=0 ;x<employeesSortedBySalary.length ; x++){
+            System.out.printf("%10s %10s %10s \n",employeesSortedBySalary[x].getName()
+            ,employeesSortedBySalary[x].getDepatment()
+            ,employeesSortedBySalary[x].getSalary());
+
+        }
+
     }
 }

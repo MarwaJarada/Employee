@@ -49,8 +49,8 @@
       <file leaf-file-name="main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="51" lean-forward="true" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
+            <state relative-caret-position="114">
+              <caret line="6" column="46" lean-forward="false" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -274,7 +274,14 @@
       <option name="project" value="LOCAL" />
       <updated>1550946099126</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Preparing sorting methods with test it :&#10;- Sorting By Salary&#10;- Sorting by Name">
+      <created>1550947103365</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1550947103365</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -315,7 +322,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="preparing Employee class and basic attributes" />
     <MESSAGE value="Creating array of Employees that the user will enter them" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating array of Employees that the user will enter them" />
+    <MESSAGE value="Preparing sorting methods with test it :&#10;- Sorting By Salary&#10;- Sorting by Name" />
+    <option name="LAST_COMMIT_MESSAGE" value="Preparing sorting methods with test it :&#10;- Sorting By Salary&#10;- Sorting by Name" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -360,8 +368,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="51" lean-forward="true" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
+        <state relative-caret-position="114">
+          <caret line="6" column="46" lean-forward="false" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
           <folding />
         </state>
       </provider>
