@@ -17,11 +17,41 @@ public class mainJOptionPane {
             Employee employee = new Employee(employeeName, employeeDepartment, Double.parseDouble(employeeSalary));
             employees[i] = employee;
 
-        }
 
-        Employee.showSortedData(employees);
+        }
+        Employee.sortBySalary(employees);
+        Employee.showSortedDataBySalary(employees);
+        JOptionPane.showMessageDialog(null,showSortedDataIOptionPane(employees));
         System.out.println(Employee.getCount());
 
+
+    }
+
+    public static String showSortedDataIOptionPane(Employee[] employees){
+        String sortedData = "";
+        Employee[] employeesSortedBySalary=Employee.sortBySalary(employees);
+        sortedData=sortedData+("Name\tDepartment\tSalary");
+        for (int x=0 ;x<employeesSortedBySalary.length ; x++){
+            sortedData = sortedData+"\n"+employeesSortedBySalary[x].getName()
+                    +"\t"+employeesSortedBySalary[x].getDepatment()
+                    +"\t"+employeesSortedBySalary[x].getSalary();
+
+        }
+        return sortedData;
+
+    }
+
+    public static String showSortedDataByNameIOptionPane(Employee[] employees){
+        String sortedData = "";
+        Employee[] employeesSortedBySalary=Employee.sortByName(employees);
+        sortedData=sortedData+("Name\tDepartment\tSalary");
+        for (int x=0 ;x<employeesSortedBySalary.length ; x++){
+            sortedData = sortedData+"\n"+employeesSortedBySalary[x].getName()
+                    +"\t"+employeesSortedBySalary[x].getDepatment()
+                    +"\t"+employeesSortedBySalary[x].getSalary();
+
+        }
+        return sortedData;
 
     }
 }

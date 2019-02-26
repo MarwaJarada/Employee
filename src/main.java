@@ -16,13 +16,12 @@ public class main {
 
         }
 
-        Employee.showSortedData(employees);
+        Employee.sortBySalary(employees);
+        Employee.showSortedDataBySalary(employees);
+        Employee.sortByName(employees);
+        Employee.showSortedDataByName(employees);
         System.out.println(Employee.getCount());
-
-        /* If we want to test sorting methods:
-        sortBySalaryTEST(employees);
-        sortByNameTEST(employees);
-*/
+        System.out.println(" THE NUMBER OF EMPLOYEES IS :" + Employee.count);
 
 
     }

@@ -88,8 +88,19 @@ public class Employee {
             System.out.println(employeesSortedByName[x].getName());
         }
     }
-    public static void showSortedData(Employee[] employees){
+    public static void showSortedDataBySalary(Employee[] employees){
         Employee[] employeesSortedBySalary=sortBySalary(employees);
+        System.out.printf("%10s %10s %10s \n","Name","Department" , "Salary");
+        for (int x=0 ;x<employeesSortedBySalary.length ; x++){
+            System.out.printf("%10s %10s %10s \n",employeesSortedBySalary[x].getName()
+                    ,employeesSortedBySalary[x].getDepatment()
+                    ,employeesSortedBySalary[x].getSalary());
+
+        }
+    }
+
+    public static void showSortedDataByName(Employee[] employees){
+        Employee[] employeesSortedBySalary=sortByName(employees);
         System.out.printf("%10s %10s %10s \n","Name","Department" , "Salary");
         for (int x=0 ;x<employeesSortedBySalary.length ; x++){
             System.out.printf("%10s %10s %10s \n",employeesSortedBySalary[x].getName()
